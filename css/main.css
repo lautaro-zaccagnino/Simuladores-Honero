@@ -1,2 +1,35 @@
+.navbar {
+  background-color: #ececec;
+  border-bottom: 1px solid #9c9c9c; }
+  .navbar .navbar-nav {
+    border-left: 1px solid #acacac; }
+
 .navbar-brand img {
   width: 150px; }
+
+footer {
+  height: 200px;
+  background-color: #67687a; }
+  footer h2 {
+    font-size: 20px; }
+  footer .footer__link {
+    display: flex;
+    align-items: center; }
+    footer .footer__link img {
+      pointer-events: none;
+      width: 100px; }
+  footer .footer__list {
+    list-style: none; }
+    footer .footer__list li:first-child {
+      font-weight: 600; }
+
+.bannerPresentacion {
+  background-image: url("/jpg/banner.jpg");
+  background-color: black;
+  height: 520px; }
+  .bannerPresentacion h1, .bannerPresentacion h2, .bannerPresentacion p {
+    color: white; }
+  .bannerPresentacion h2 {
+    font-size: 26px; }
+  .bannerPresentacion p {
+    width: 600px; }

@@ -1,0 +1,24 @@
+footer{
+    height: 200px;
+    background-color: rgb(103, 104, 122);
+    h2{
+        font-size: $headers2-size;
+    }
+
+    .footer__link{
+        display: flex;
+        align-items: center;
+        img{
+            pointer-events: none;
+            width: 100px;
+        }
+    }
+
+    .footer__list{
+        list-style: none;
+        li:first-child{
+            font-weight: 600;
+        }
+    }
+
+}

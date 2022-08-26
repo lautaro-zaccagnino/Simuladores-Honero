@@ -1,0 +1,14 @@
+.bannerPresentacion{
+    background-image: url("/jpg/banner.jpg");
+    background-color: black;
+    height: 520px;
+    h1, h2, p{
+        color: white;
+    }
+    h2{
+        font-size: 26px;
+    }
+    p{
+        width: 600px;
+    }
+}
