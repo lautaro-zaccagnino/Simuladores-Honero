@@ -1,8 +1,9 @@
 footer{
     height: 200px;
-    background-color: rgb(103, 104, 122);
+    background-color: $dark-color;
     h2{
         font-size: $headers2-size;
+        color: rgb(240, 240, 240);
     }
 
     .footer__link{
@@ -16,9 +17,22 @@ footer{
 
     .footer__list{
         list-style: none;
+        color: rgb(240, 240, 240);
         li:first-child{
             font-weight: 600;
         }
     }
 
+    .ultra__footer{
+        color: rgb(200, 200, 200);
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        position: relative;
+        top: 60px;
+        height: 40px;
+        background-color: rgb(15, 15, 15);
+    }
 }

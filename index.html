@@ -13,16 +13,20 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid d-flex justify-content-evenly">
-              <a class="navbar-brand" href="#"><img src="svg/logoSimuladoresGreen.svg" alt="Logo">Simuladores Hornero</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse  justify-content-end" id="navbarText">
-                  <div class="navbar-text ">
+            <div class="container-fluid justify-content-evenly">
+                    <a class="navbar-brand " href="#"><img src="svg/logoSimuladoresGreen.svg" alt="Logo">Simuladores Hornero</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+              <div class="menusDesplegables collapse navbar-collapse justify-content-end" id="navbarText">
+                  <div class="navbar-text">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-contet-right">
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./paginas/simuladores.html">Simuladores</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="./paginas/sobre-nosotros.html">Sobre nosotros</a>
@@ -33,53 +37,93 @@
                     </ul>
                 </div>
               </div>
+
             </div>
           </nav>
     </header>
 
 
 
-    <main>
+    <main id="indexMain">
 
         <div class="bannerPresentacion d-flex flex-column justify-content-center">
             <h1>Simuladores Hornero</h1>
             <h2>Mayor fabricante de simuladores de vuelo de la región</h2>
-            <p>En la empresa siempre nos repetimos que la tecnología no es el equipo sino el saber hacer.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, id ut. Inventore, sapiente provident! Dolores autem, aliquid eveniet laudantium veritatis veniam repellendus modi id error saepe quia laboriosam numquam facilis!</p>
         </div>
 
+        <section class="cards-container">
+            <div class="d-flex cards">
+                <div class="cards-content">
+                    <h2>Simulador de Air Tractor AT-802</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos suscipit provident harum itaque perspiciatis dignissimos, sint enim ipsam iste officiis, sunt aspernatur tempora corporis repudiandae odit et quam recusandae facilis?</p>
+                </div>
+                <img src="./jpg/airtractor.jpg" alt="Simulador Air-Tractor AT-802">
+            </div>
+            <div class="d-flex cards">
+                <img src="./jpg/helicoptero2.jpg" alt="Simulador Eurocopter BO-105">
+                <div class="cards-content">
+                    <h2>Simulador de Eurocopter BO-105</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos suscipit provident harum itaque perspiciatis dignissimos, sint enim ipsam iste officiis, sunt aspernatur tempora corporis repudiandae odit et quam recusandae facilis?</p>
+                </div>
+            </div>
 
-        <div class="d-flex">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos suscipit provident harum itaque perspiciatis dignissimos, sint enim ipsam iste officiis, sunt aspernatur tempora corporis repudiandae odit et quam recusandae facilis?</p>
-            <img src="./jpg/airtractor.jpg" alt="Simulador Air-Tractor AT-802">
-        </div>
-        <div class="d-flex">
-            <img src="./jpg/helicoptero2.jpg" alt="Simulador Eurocopter BO-105">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos suscipit provident harum itaque perspiciatis dignissimos, sint enim ipsam iste officiis, sunt aspernatur tempora corporis repudiandae odit et quam recusandae facilis?</p>
-        </div>
+            <div class="d-flex cards">
+                <img src="./jpg/hornerito.jpg" alt="Simulador Hornerito" class="imgHornerito">
+                <div class="cards-content">
+                    <h2>Simulador Hornerito</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos suscipit provident harum itaque perspiciatis dignissimos, sint enim ipsam iste officiis, sunt aspernatur tempora corporis repudiandae odit et quam recusandae facilis?</p>
+                </div>
+                <img src="./jpg/hornerito2.jpg" alt="Simulador Hornerito" class="imgHornerito">
+            </div>
 
-        <div class="d-flex">
-            <img src="./jpg/hornerito.jpg" alt="Simulador Hornerito">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos suscipit provident harum itaque perspiciatis dignissimos, sint enim ipsam iste officiis, sunt aspernatur tempora corporis repudiandae odit et quam recusandae facilis?</p>
-            <img src="./jpg/hornerito2.jpg" alt="Simulador Hornerito">
-        </div>
+            <div class="d-flex justify-content-around distintivos">
+                <li>
+                    <img class="distintivos__svg" src="./svg/profesional.svg" alt="Profesional">
+                    <h4>Profesionales<br>Calificados</h4>
+                </li>
+
+                <li>
+                    <img class="distintivos__svg" src="./svg/certificado.svg" alt="Certificacion">
+                    <h4>Simuladores<br>Certificados</h4>
+                </li>
+
+                <li>
+                    <img class="distintivos__svg" src="./svg/diploma.svg" alt="Entrenamiento">
+                    <h4>Entrenamiento<br>Internacional</h4>
+                </li>
+
+                <li>
+                    <img class="distintivos__svg" src="./svg/pioneros.svg" alt="Pioneros">
+                    <h4>Pioneros<br>Nacionales</h4>
+                </li>
+            </div>
+
+            <h3 class="refran">"En la empresa siempre nos repetimos que la tecnología no es el equipo sino el saber hacer"</h3>
+            
+        </section>
+            
     </main>
 
 
 
-    <footer class="d-flex justify-content-around align-items-center">
-        <h2>©2022</h2>
-
-        <div class="footer__link">
-            <img src="svg/logoSimuladoresGray.svg" alt="Logo">
-            <h2>simuladoreshornero.com</h2>
-        </div>
-
-
-        <div class="footer__list">
-            <li>Contáctate con nostros</li>
-            <li>info@simuladores.com</li>
-            <li>Bartolomé Mitre 1886, Castelar</li>
-        </div>
+    <footer class="d-flex flex-column justify-content-center">
+        <section class="d-flex justify-content-around align-items-center">
+            <h2>©2022</h2>
+    
+            <div class="footer__link">
+                <img src="svg/logoSimuladoresGray.svg" alt="Logo">
+                <h2>simuladoreshornero.com</h2>
+            </div>
+    
+    
+            <div class="footer__list">
+                <li>Contáctate con nostros</li>
+                <li>simuladoreshornero@gmail.com</li>
+                <li>Bartolomé Mitre 1886, Castelar</li>
+            </div>
+        </section>
+        <div class="ultra__footer"><p>Simuladores Hornero | Líder en entrenamiento de pilotos</p></div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
