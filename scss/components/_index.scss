@@ -4,7 +4,9 @@
     background: linear-gradient(180deg, rgba(0,0,0,1) 40%, rgba(240,240,240,1) 100%);
     .bannerPresentacion{
         background-image: url("/jpg/banner.jpg");
-        height: 540px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 92vh;
         h1, h2, p{
             position: relative;
             left: 10%;
@@ -29,10 +31,11 @@
         flex-direction: column;
         align-items: center;
         .cards{
-            border-bottom: 1px solid lightgray;
             justify-content: center;
             background-color: white;
-            width: 98%;
+            width: 95%;
+            
+        margin-top: 5px;
             img{
                 pointer-events: none;
             }
@@ -59,7 +62,7 @@
 
         .distintivos{
             padding-top: 80px;
-            width: 98%;
+            width: 95%;
             background-color: white;
             list-style: none;
             &__svg{
@@ -83,7 +86,7 @@
             text-align: center;
             padding: 100px 0px;
             background-color: white;
-            width: 98%;
+            width: 95%;
             font-size: 22px;
         }
     }

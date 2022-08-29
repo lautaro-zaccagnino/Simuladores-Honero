@@ -46,7 +46,9 @@ footer {
   background: linear-gradient(180deg, black 40%, #f0f0f0 100%); }
   #indexMain .bannerPresentacion {
     background-image: url("/jpg/banner.jpg");
-    height: 540px; }
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh; }
     #indexMain .bannerPresentacion h1, #indexMain .bannerPresentacion h2, #indexMain .bannerPresentacion p {
       position: relative;
       left: 10%;
@@ -66,10 +68,10 @@ footer {
     flex-direction: column;
     align-items: center; }
     #indexMain .cards-container .cards {
-      border-bottom: 1px solid lightgray;
       justify-content: center;
       background-color: white;
-      width: 98%; }
+      width: 95%;
+      margin-top: 5px; }
       #indexMain .cards-container .cards img {
         pointer-events: none; }
       #indexMain .cards-container .cards-content {
@@ -88,7 +90,7 @@ footer {
         width: 400px; }
     #indexMain .cards-container .distintivos {
       padding-top: 80px;
-      width: 98%;
+      width: 95%;
       background-color: white;
       list-style: none; }
       #indexMain .cards-container .distintivos__svg {
@@ -107,11 +109,44 @@ footer {
       text-align: center;
       padding: 100px 0px;
       background-color: white;
-      width: 98%;
+      width: 95%;
       font-size: 22px; }
 
+#mainSimuladores {
+  background-color: lightgray; }
+  #mainSimuladores .bannerSimuladores {
+    background-image: url("/jpgSimu/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+    width: 100vw;
+    max-width: 100%; }
+    #mainSimuladores .bannerSimuladores h1, #mainSimuladores .bannerSimuladores h2, #mainSimuladores .bannerSimuladores p {
+      position: relative;
+      left: 10%;
+      width: 800px;
+      color: white; }
+    #mainSimuladores .bannerSimuladores h1 {
+      font-weight: 700;
+      padding-bottom: 20px; }
+    #mainSimuladores .bannerSimuladores h2 {
+      font-size: 26px;
+      font-weight: 500;
+      padding-bottom: 10px; }
+    #mainSimuladores .bannerSimuladores p {
+      width: 600px; }
+  #mainSimuladores .simHistory {
+    width: 80%;
+    margin-bottom: 5px;
+    background-color: white;
+    border: 2px solid #cecece; }
+    #mainSimuladores .simHistory .imgSimu {
+      width: 600px; }
+  #mainSimuladores .carousel-item img {
+    pointer-events: none; }
+
 #contactoMain {
-  background-color: #f0f0f0; }
+  background-color: lightgray; }
   #contactoMain h1 {
     background-color: #353546;
     height: 100px;
@@ -122,12 +157,19 @@ footer {
   #contactoMain section {
     padding: 80px 0px;
     background-color: white;
-    width: 98%;
-    list-style: none; }
-  #contactoMain iframe {
-    position: absolute;
-    left: 100px;
-    top: 420px; }
+    width: 95%;
+    list-style: none;
+    margin-bottom: 10px; }
+    #contactoMain section div {
+      width: 85%; }
+      #contactoMain section div #ubicacionContacto {
+        margin-top: 40px; }
+      #contactoMain section div iframe {
+        position: relative;
+        top: 100px; }
+    #contactoMain section .logosContacto img {
+      height: 30px;
+      width: 40px; }
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], input[type=email], select, textarea {

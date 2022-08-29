@@ -1,5 +1,5 @@
 #contactoMain{
-    background-color: rgb(240, 240, 240);
+    background-color: lightgray;
     h1{
         background-color: $dark-color;
         height:100px;
@@ -10,16 +10,30 @@
     }
     section{
       padding: 80px 0px;
-        background-color: rgb(255, 255, 255);
-        width: 98%;
-        list-style: none;
+      background-color: rgb(255, 255, 255);
+      width: 95%;
+      list-style: none;
+      margin-bottom: 10px;
+      div{
+        width: 85%;
+        #ubicacionContacto{
+          margin-top: 40px;
+        }
+        iframe{
+          position: relative;
+          top: 100px;
+        }
+      }
+
+      .logosContacto{
+        img{
+
+          height: 30px;
+          width: 40px;
+        }
+      }
     }
 
-    iframe{
-      position: absolute;
-      left: 100px;
-      top: 420px;
-    }
 } 
  
 
