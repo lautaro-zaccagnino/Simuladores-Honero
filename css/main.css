@@ -45,15 +45,16 @@ footer {
   background: black;
   background: linear-gradient(180deg, black 40%, #f0f0f0 100%); }
   #indexMain .bannerPresentacion {
-    background-image: url("/jpg/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0) 30%), url("/jpgSimu/banner.jpg");
     height: 92vh; }
     #indexMain .bannerPresentacion h1, #indexMain .bannerPresentacion h2, #indexMain .bannerPresentacion p {
       position: relative;
       left: 10%;
-      width: 800px;
-      color: white; }
+      width: 600px;
+      color: white;
+      text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black, 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black; }
     #indexMain .bannerPresentacion h1 {
       font-weight: 700;
       padding-bottom: 20px; }
@@ -62,7 +63,8 @@ footer {
       font-weight: 500;
       padding-bottom: 10px; }
     #indexMain .bannerPresentacion p {
-      width: 600px; }
+      width: 450px;
+      font-weight: 600; }
   #indexMain .cards-container {
     display: flex;
     flex-direction: column;
@@ -106,18 +108,56 @@ footer {
           border-top: 1px solid #ffe600;
           text-align: center; }
     #indexMain .cards-container .refran {
+      font-family: 'Charm', cursive;
       text-align: center;
       padding: 100px 0px;
       background-color: white;
       width: 95%;
-      font-size: 22px; }
+      font-size: 26px;
+      font-weight: 500; }
+
+@media only screen and (min-width: 1600px) {
+  .cards-container {
+    width: 85%;
+    position: relative;
+    left: 7%; }
+    .cards-container .cards img {
+      height: 500px; }
+    .cards-container .cards .imgHornerito {
+      height: 350px;
+      width: 450px !important; } }
+
+@media only screen and (max-width: 1024px) {
+  #indexMain .cards-container {
+    position: relative;
+    left: 2.5%;
+    width: 95%; }
+    #indexMain .cards-container .cards img {
+      height: 250px; }
+    #indexMain .cards-container .cards .imgHornerito {
+      height: 250px; }
+    #indexMain .cards-container .cards-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 100%; }
+      #indexMain .cards-container .cards-content h2 {
+        padding-bottom: 5px !important;
+        font-size: 24px; }
+      #indexMain .cards-container .cards-content p {
+        text-align: center;
+        width: 90% !important;
+        padding-left: 9% !important; } }
 
 #mainSimuladores {
-  background-color: lightgray; }
+  background-color: lightgray;
+  background: black;
+  background: linear-gradient(180deg, #292929 14%, #c9c9c9 30%, #f0f0f0 100%); }
   #mainSimuladores img {
     pointer-events: none; }
   #mainSimuladores .bannerSimuladores {
-    background-image: url("/jpgSimu/banner.jpg");
+    background-image: linear-gradient(to top, #202536, rgba(0, 0, 0, 0) 30%), url("/jpgSimu/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 92vh;
@@ -127,7 +167,8 @@ footer {
       position: relative;
       left: 10%;
       width: 800px;
-      color: white; }
+      color: white;
+      text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black, 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black; }
     #mainSimuladores .bannerSimuladores h1 {
       font-weight: 700;
       padding-bottom: 20px; }
@@ -139,23 +180,68 @@ footer {
       width: 600px; }
   #mainSimuladores .headSimu {
     padding: 50px;
-    background-color: #2b2b77;
+    background-color: #1d2544;
     width: 100%;
     margin-bottom: 20px; }
     #mainSimuladores .headSimu h2 {
       position: relative;
-      left: 10%;
+      left: 5%;
       max-width: 30%;
       color: white; }
   #mainSimuladores .simHistory {
-    width: 80%;
-    margin-bottom: 5px;
-    background-color: white;
-    border: 2px solid #cecece; }
+    width: 85%;
+    margin-bottom: 5px; }
     #mainSimuladores .simHistory div {
-      border-bottom: 1px solid #cecece; }
+      background-color: white;
+      margin-bottom: 5px; }
+      #mainSimuladores .simHistory div div {
+        text-align: center;
+        width: 55%; }
+        #mainSimuladores .simHistory div div h2, #mainSimuladores .simHistory div div h3 {
+          padding-bottom: 20px; }
+        #mainSimuladores .simHistory div div li {
+          position: relative;
+          left: 15%;
+          text-align: left; }
+        #mainSimuladores .simHistory div div p {
+          position: relative;
+          left: 10%;
+          width: 80%;
+          text-align: center;
+          line-height: 30px; }
+      #mainSimuladores .simHistory div #entrenaBolkow {
+        line-height: 20px; }
     #mainSimuladores .simHistory .imgSimu {
-      width: 600px; }
+      width: 550px; }
+
+@media only screen and (min-width: 1600px) {
+  #mainSimuladores .headSimu h2 {
+    left: 10%;
+    max-width: 30%;
+    color: white; }
+  #mainSimuladores .simHistory {
+    width: 80%; }
+    #mainSimuladores .simHistory h2, #mainSimuladores .simHistory h3 {
+      font-size: 36px !important; }
+    #mainSimuladores .simHistory p, #mainSimuladores .simHistory li {
+      font-size: 20px !important;
+      line-height: 30px !important; }
+    #mainSimuladores .simHistory .imgSimu {
+      width: 750px !important; } }
+
+@media only screen and (max-width: 1024px) {
+  #mainSimuladores .simHistory h2, #mainSimuladores .simHistory h3 {
+    font-size: 24px;
+    padding-bottom: 5px !important; }
+  #mainSimuladores .simHistory p, #mainSimuladores .simHistory li {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px !important; }
+  #mainSimuladores .simHistory .imgSimu {
+    width: 400px !important; } }
 
 #contactoMain {
   background-color: lightgray; }
@@ -221,10 +307,17 @@ input[type=submit]:hover {
   padding: 20px;
   width: 450px; }
 
+@media only screen and (max-width: 1024px) {
+  iframe {
+    width: 250px;
+    height: 200px; } }
+
 #mainNosotros {
-  background-color: lightgray; }
+  background-color: lightgray;
+  background: black;
+  background: linear-gradient(180deg, #292929 30%, #f0f0f0 100%); }
   #mainNosotros .bannerNosotros {
-    background-image: url("/jpgSimu/banner.jpg");
+    background-image: linear-gradient(to top, #202536, rgba(0, 0, 0, 0) 30%), url("/jpgSimu/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 92vh;
@@ -234,7 +327,8 @@ input[type=submit]:hover {
       position: relative;
       left: 10%;
       width: 800px;
-      color: white; }
+      color: white;
+      text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black, 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black; }
     #mainNosotros .bannerNosotros h1 {
       font-weight: 700;
       padding-bottom: 20px; }
@@ -244,10 +338,66 @@ input[type=submit]:hover {
       padding-bottom: 10px; }
     #mainNosotros .bannerNosotros p {
       width: 600px; }
+  #mainNosotros .headNosotros {
+    padding: 50px;
+    background-color: #1d2544;
+    width: 100%;
+    margin-bottom: 20px; }
+    #mainNosotros .headNosotros h2 {
+      position: relative;
+      left: 10%;
+      max-width: 30%;
+      color: white; }
   #mainNosotros section {
-    width: 95vw;
+    width: 80%;
     background-color: white;
     margin: 20px 0px; }
-    #mainNosotros section p {
-      width: 90%;
-      padding: 50px 0px; }
+    #mainNosotros section .contenedorHistoria {
+      padding-bottom: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 5%; }
+      #mainNosotros section .contenedorHistoria h3 {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-weight: 600;
+        align-self: left;
+        border-bottom: 1px solid gray;
+        margin-bottom: 20px; }
+      #mainNosotros section .contenedorHistoria .contenedorParrafos {
+        display: flex; }
+        #mainNosotros section .contenedorHistoria .contenedorParrafos p {
+          width: 550px;
+          margin-top: 11px;
+          margin-bottom: 15px;
+          line-height: 34px;
+          font-size: 20px; }
+        #mainNosotros section .contenedorHistoria .contenedorParrafos img {
+          width: 350px;
+          height: 263px;
+          padding-left: 10px;
+          margin-bottom: 10px; }
+
+@media only screen and (min-width: 1600px) {
+  #mainNosotros .contenedorParrafos {
+    display: flex; }
+    #mainNosotros .contenedorParrafos p {
+      width: 1000px !important;
+      margin-top: 11px;
+      margin-bottom: 15px;
+      line-height: 42px !important;
+      font-size: 24px !important; } }
+
+@media only screen and (max-width: 1024px) {
+  #mainNosotros .contenedorParrafos {
+    display: flex; }
+    #mainNosotros .contenedorParrafos p {
+      width: 450px !important;
+      margin-top: 11px;
+      margin-bottom: 15px;
+      line-height: 26px !important;
+      font-size: 18px !important; }
+    #mainNosotros .contenedorParrafos img {
+      width: 280px !important;
+      height: 193px !important; } }
