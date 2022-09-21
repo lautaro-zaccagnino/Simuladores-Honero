@@ -153,3 +153,185 @@
         }
     }
 }
+
+@media only screen and (max-width: 810px){
+    #indexMain{
+
+        .bannerPresentacion{
+            h1, h2, p{
+                position: relative;
+                left: 2.5%;
+                width: 600px;
+                color: white;
+                text-shadow: 1px 0 rgb(0, 0, 0), -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 0 -1px rgb(0, 0, 0),
+                1px 1px rgb(0, 0, 0), -1px -1px rgb(0, 0, 0), 1px -1px rgb(0, 0, 0), -1px 1px rgb(0, 0, 0);
+            }
+            h1{
+                margin-bottom: 50px;
+            }
+            p{
+                display: none;
+            }
+        }
+
+        .cards-container{
+            position: static;
+            width: 100%;
+            .cards{
+                img{
+                    height: 250px;
+                }
+                .imgHornerito{
+                    height: 180px;
+                }
+    
+                &-content{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                    width: 100%;
+                    h2{
+                        padding-bottom: 5px !important;
+                        font-size: 24px;
+                    }
+                    p{
+                        text-align: center;
+                        width: 90% !important;
+                        padding-left: 9% !important;
+                        font-size: 14px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 809px){
+    .navbar-brand{
+        font-size: 14px !important;
+        img{
+            width: 80px!important;
+        }
+        width: 50px;
+    }
+
+    .navbar-toggler-icon{
+        height: 30px;
+        width: 30px;
+    }
+
+    #indexMain{
+
+        .bannerPresentacion{
+            background-repeat: no-repeat;
+            background-size: 150%;
+            background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0, 0, 0, 0) 30%), url("/jpgSimu/banner.jpg"),;
+            height: 300px;
+            h1, h2, p{
+                position: relative;
+                text-align: center;
+                left: 2.5%;
+                width: 90vw;
+                color: white;
+                text-shadow: 1px 0 rgb(0, 0, 0), -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 0 -1px rgb(0, 0, 0),
+                1px 1px rgb(0, 0, 0), -1px -1px rgb(0, 0, 0), 1px -1px rgb(0, 0, 0), -1px 1px rgb(0, 0, 0);
+            }
+            h2{
+                font-size: 16px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+
+        .cards-container{
+            align-items: center !important;
+            position: static;
+            .cards{
+                flex-direction: column;
+                margin-bottom: 20px;
+                width: 300px;
+
+                img{
+                    height: auto;
+                }
+                .imgHornerito{
+                    height: 100%;
+                    width: 100%;
+                }
+    
+                &-content{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                    width: 100%;
+                    h2{
+                        padding-bottom: 5px !important;
+                        font-size: 20px;
+                    }
+                    p{
+                        text-align: center;
+                        width: 90% !important;
+                        padding-left: 9% !important;
+                        font-size: 10px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .distintivos{
+        width: 300px !important;
+
+        padding-top: 25px !important;
+        flex-direction: column;
+        align-items: center;
+        &__svg{
+            align-self: center;
+            width: 65px;
+        }
+        h4{
+            font-size: 18px;
+            padding-bottom: 20px;
+        }
+    }
+
+    .refran{
+        width: 300px !important;
+
+        padding: 20px 0px !important;
+        font-size: 20px !important;
+        padding-bottom: 50px !important;
+    }
+
+    footer{
+        section{
+            flex-direction: column;
+            h2{
+               display: none;
+            }
+            .footer__link{
+                img{
+                    width: 80px;
+                }
+                padding-top: 20px;
+                padding-bottom: 40px;
+            }
+            .footer__list{
+                font-size: 14px;
+                padding-bottom: 20px;
+            }
+
+        }
+        .ultra__footer{
+            height: 100px;
+            top: 0px;
+
+            p{
+                font-size: 12px !important;
+            }
+        }
+    }
+}

@@ -114,3 +114,42 @@
         }
     }
 }
+
+@media only screen and (max-width: 810px){
+    .container-fluid{
+        justify-content: space-between !important;
+    }
+
+    #mainNosotros{
+
+        .headNosotros{
+            h2{
+                left: 0%;
+            }
+        }
+
+        .bannerNosotros{   
+            h1, h2, p{
+                left: 2.5%;
+                width: 600px;
+            }
+        }
+        section{
+            width: 95%;
+        }
+        .contenedorParrafos{
+            display: flex;
+            p{
+                width: 450px !important;
+                margin-top: 11px;
+                margin-bottom: 15px;
+                line-height: 26px !important;
+                font-size: 16px !important;
+            }
+            img{
+                width: 250px !important;
+                height: 163px !important;
+            }
+        }
+    }
+}

@@ -106,6 +106,8 @@
                 width: 750px !important;
             }
         }
+
+        
         
     }
 }
@@ -133,5 +135,52 @@
             }
         }
         
+    }
+}
+
+@media only screen and (max-width: 810px){
+    .headNav{
+
+        .container-fluid{
+            justify-content: space-between !important;
+        }
+    }
+
+    #mainSimuladores{
+
+        .bannerSimuladores{          //CLAVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+            h1, h2, p{
+                left: 2.5%;
+                width: 600px;
+            }
+        }
+
+
+        .simHistory{
+            width: 95%;
+            h2, h3{
+                font-size: 20px;
+                padding-bottom: 5px !important;
+            }
+            p, li{
+                position: relative;
+                left: 10%;
+                width: 80%;
+                text-align: center;
+                font-size: 14px;
+                line-height: 20px !important;
+            }
+            .imgSimu{
+                width: 400px !important;
+            }
+        }
+        
+
+        .headSimu{
+            h2{
+                left: 0%;
+                max-width: 40%;
+            }
+        }
     }
 }

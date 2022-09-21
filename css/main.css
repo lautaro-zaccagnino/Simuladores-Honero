@@ -12,6 +12,10 @@
 .navbar-brand img {
   width: 120px; }
 
+@media only screen and (max-width: 810px) {
+  .container-fluid {
+    justify-content: space-between !important; } }
+
 footer {
   height: 200px;
   background-color: #353546; }
@@ -150,6 +154,124 @@ footer {
         width: 90% !important;
         padding-left: 9% !important; } }
 
+@media only screen and (max-width: 810px) {
+  #indexMain .bannerPresentacion h1, #indexMain .bannerPresentacion h2, #indexMain .bannerPresentacion p {
+    position: relative;
+    left: 2.5%;
+    width: 600px;
+    color: white;
+    text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black, 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black; }
+  #indexMain .bannerPresentacion h1 {
+    margin-bottom: 50px; }
+  #indexMain .bannerPresentacion p {
+    display: none; }
+  #indexMain .cards-container {
+    position: static;
+    width: 100%; }
+    #indexMain .cards-container .cards img {
+      height: 250px; }
+    #indexMain .cards-container .cards .imgHornerito {
+      height: 180px; }
+    #indexMain .cards-container .cards-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 100%; }
+      #indexMain .cards-container .cards-content h2 {
+        padding-bottom: 5px !important;
+        font-size: 24px; }
+      #indexMain .cards-container .cards-content p {
+        text-align: center;
+        width: 90% !important;
+        padding-left: 9% !important;
+        font-size: 14px !important; } }
+
+@media only screen and (max-width: 809px) {
+  .navbar-brand {
+    font-size: 14px !important;
+    width: 50px; }
+    .navbar-brand img {
+      width: 80px !important; }
+  .navbar-toggler-icon {
+    height: 30px;
+    width: 30px; }
+  #indexMain .bannerPresentacion {
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0) 30%), url("/jpgSimu/banner.jpg");
+    height: 300px; }
+    #indexMain .bannerPresentacion h1, #indexMain .bannerPresentacion h2, #indexMain .bannerPresentacion p {
+      position: relative;
+      text-align: center;
+      left: 2.5%;
+      width: 90vw;
+      color: white;
+      text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black, 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black; }
+    #indexMain .bannerPresentacion h2 {
+      font-size: 16px; }
+    #indexMain .bannerPresentacion p {
+      font-size: 12px; }
+  #indexMain .cards-container {
+    align-items: center !important;
+    position: static; }
+    #indexMain .cards-container .cards {
+      flex-direction: column;
+      margin-bottom: 20px;
+      width: 300px; }
+      #indexMain .cards-container .cards img {
+        height: auto; }
+      #indexMain .cards-container .cards .imgHornerito {
+        height: 100%;
+        width: 100%; }
+      #indexMain .cards-container .cards-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%; }
+        #indexMain .cards-container .cards-content h2 {
+          padding-bottom: 5px !important;
+          font-size: 20px; }
+        #indexMain .cards-container .cards-content p {
+          text-align: center;
+          width: 90% !important;
+          padding-left: 9% !important;
+          font-size: 10px !important; }
+  .distintivos {
+    width: 300px !important;
+    padding-top: 25px !important;
+    flex-direction: column;
+    align-items: center; }
+    .distintivos__svg {
+      align-self: center;
+      width: 65px; }
+    .distintivos h4 {
+      font-size: 18px;
+      padding-bottom: 20px; }
+  .refran {
+    width: 300px !important;
+    padding: 20px 0px !important;
+    font-size: 20px !important;
+    padding-bottom: 50px !important; }
+  footer section {
+    flex-direction: column; }
+    footer section h2 {
+      display: none; }
+    footer section .footer__link {
+      padding-top: 20px;
+      padding-bottom: 40px; }
+      footer section .footer__link img {
+        width: 80px; }
+    footer section .footer__list {
+      font-size: 14px;
+      padding-bottom: 20px; }
+  footer .ultra__footer {
+    height: 100px;
+    top: 0px; }
+    footer .ultra__footer p {
+      font-size: 12px !important; } }
+
 #mainSimuladores {
   background-color: lightgray;
   background: black;
@@ -243,6 +365,30 @@ footer {
   #mainSimuladores .simHistory .imgSimu {
     width: 400px !important; } }
 
+@media only screen and (max-width: 810px) {
+  .headNav .container-fluid {
+    justify-content: space-between !important; }
+  #mainSimuladores .bannerSimuladores h1, #mainSimuladores .bannerSimuladores h2, #mainSimuladores .bannerSimuladores p {
+    left: 2.5%;
+    width: 600px; }
+  #mainSimuladores .simHistory {
+    width: 95%; }
+    #mainSimuladores .simHistory h2, #mainSimuladores .simHistory h3 {
+      font-size: 20px;
+      padding-bottom: 5px !important; }
+    #mainSimuladores .simHistory p, #mainSimuladores .simHistory li {
+      position: relative;
+      left: 10%;
+      width: 80%;
+      text-align: center;
+      font-size: 14px;
+      line-height: 20px !important; }
+    #mainSimuladores .simHistory .imgSimu {
+      width: 400px !important; }
+  #mainSimuladores .headSimu h2 {
+    left: 0%;
+    max-width: 40%; } }
+
 #contactoMain {
   background-color: lightgray; }
   #contactoMain h1 {
@@ -311,6 +457,19 @@ input[type=submit]:hover {
   iframe {
     width: 250px;
     height: 200px; } }
+
+@media only screen and (max-width: 810px) {
+  .container-fluid {
+    justify-content: space-between !important; }
+  #contactoMain iframe {
+    width: 200px;
+    height: 150px; }
+  #contactoMain section {
+    margin: 50px 0px; }
+    #contactoMain section div {
+      width: 95% !important; }
+      #contactoMain section div #ubicacionContacto {
+        margin-top: 40px; } }
 
 #mainNosotros {
   background-color: lightgray;
@@ -401,3 +560,25 @@ input[type=submit]:hover {
     #mainNosotros .contenedorParrafos img {
       width: 280px !important;
       height: 193px !important; } }
+
+@media only screen and (max-width: 810px) {
+  .container-fluid {
+    justify-content: space-between !important; }
+  #mainNosotros .headNosotros h2 {
+    left: 0%; }
+  #mainNosotros .bannerNosotros h1, #mainNosotros .bannerNosotros h2, #mainNosotros .bannerNosotros p {
+    left: 2.5%;
+    width: 600px; }
+  #mainNosotros section {
+    width: 95%; }
+  #mainNosotros .contenedorParrafos {
+    display: flex; }
+    #mainNosotros .contenedorParrafos p {
+      width: 450px !important;
+      margin-top: 11px;
+      margin-bottom: 15px;
+      line-height: 26px !important;
+      font-size: 16px !important; }
+    #mainNosotros .contenedorParrafos img {
+      width: 250px !important;
+      height: 163px !important; } }
