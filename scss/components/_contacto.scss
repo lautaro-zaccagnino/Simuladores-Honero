@@ -83,7 +83,7 @@
   }
 }
 
-@media only screen and (max-width: 810px){
+@media only screen and (max-width: 900px){
   .container-fluid{
     justify-content: space-between !important;
   }
@@ -98,6 +98,35 @@
     section{
       margin: 50px 0px;
       div{
+        width: 95% !important;
+        #ubicacionContacto{
+          margin-top: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 720px){
+  .container-fluid{
+    justify-content: space-between !important;
+  }
+
+  #contactoMain{
+
+    iframe{
+      margin: 20px 0px;
+      top: 0px !important;
+      width: 200px;
+      height: 150px;
+      left:15%;
+    }
+  
+    section{
+      margin: 50px 0px;
+      div{
+        flex-wrap: wrap;
+
         width: 95% !important;
         #ubicacionContacto{
           margin-top: 40px;

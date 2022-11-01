@@ -251,7 +251,8 @@
             .cards{
                 flex-direction: column;
                 margin-bottom: 20px;
-                width: 300px;
+                width: 95vw !important;
+                max-width: 460px;
 
                 img{
                     height: auto;
@@ -283,7 +284,8 @@
     }
 
     .distintivos{
-        width: 300px !important;
+        width: 95vw !important;
+        max-width: 460px;
 
         padding-top: 25px !important;
         flex-direction: column;
@@ -299,7 +301,8 @@
     }
 
     .refran{
-        width: 300px !important;
+        width: 95vw !important;
+        max-width: 460px;
 
         padding: 20px 0px !important;
         font-size: 20px !important;
