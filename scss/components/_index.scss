@@ -154,7 +154,7 @@
     }
 }
 
-@media only screen and (max-width: 810px){
+@media only screen and (max-width: 900px){
     #indexMain{
 
         .bannerPresentacion{
@@ -207,7 +207,7 @@
     }
 }
 
-@media only screen and (max-width: 809px){
+@media only screen and (max-width: 719px){
     .navbar-brand{
         font-size: 14px !important;
         img{
@@ -225,9 +225,8 @@
 
         .bannerPresentacion{
             background-repeat: no-repeat;
-            background-size: 150%;
+            background-size: cover;
             background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0, 0, 0, 0) 30%), url("/jpgSimu/banner.jpg"),;
-            height: 300px;
             h1, h2, p{
                 position: relative;
                 text-align: center;
@@ -250,7 +249,7 @@
             position: static;
             .cards{
                 flex-direction: column;
-                margin-bottom: 20px;
+                margin-bottom: 50px;
                 width: 95vw !important;
                 max-width: 460px;
 
@@ -271,12 +270,20 @@
                     h2{
                         padding-bottom: 5px !important;
                         font-size: 20px;
+                        padding: 30px 0px;
+
                     }
                     p{
+                        padding: 10px 0px;
+
                         text-align: center;
                         width: 90% !important;
                         padding-left: 9% !important;
                         font-size: 10px !important;
+                    }
+                    p:last-child{
+                        padding-bottom: 30px;
+
                     }
                 }
             }
@@ -292,7 +299,7 @@
         align-items: center;
         &__svg{
             align-self: center;
-            width: 65px;
+            width: 50px;
         }
         h4{
             font-size: 18px;
