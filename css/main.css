@@ -51,7 +51,7 @@ footer {
   #indexMain .bannerPresentacion {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0) 30%), url("/jpgSimu/banner.jpg");
+    background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0) 30%), url("../jpgSimu/banner.jpg");
     height: 92vh; }
     #indexMain .bannerPresentacion h1, #indexMain .bannerPresentacion h2, #indexMain .bannerPresentacion p {
       position: relative;
@@ -282,7 +282,7 @@ footer {
   #mainSimuladores img {
     pointer-events: none; }
   #mainSimuladores .bannerSimuladores {
-    background-image: linear-gradient(to top, #202536, rgba(0, 0, 0, 0) 30%), url("/jpgSimu/banner.jpg");
+    background-image: linear-gradient(to top, #202536, rgba(0, 0, 0, 0) 30%), url("../jpgSimu/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 92vh;
@@ -532,7 +532,7 @@ input[type=submit]:hover {
   background: black;
   background: linear-gradient(180deg, #292929 30%, #f0f0f0 100%); }
   #mainNosotros .bannerNosotros {
-    background-image: linear-gradient(to top, #202536, rgba(0, 0, 0, 0) 30%), url("/jpgSimu/banner.jpg");
+    background-image: linear-gradient(to top, #202536, rgba(0, 0, 0, 0) 30%), url("../jpgSimu/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 92vh;
