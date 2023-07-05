@@ -682,6 +682,16 @@ input[type=submit]:hover {
       padding-bottom: 10px; }
     #mainNosotros .bannerNosotros p {
       width: 600px; }
+  #mainNosotros #PiloCordo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap; }
+    #mainNosotros #PiloCordo section {
+      width: 100%; }
+      #mainNosotros #PiloCordo section img {
+        width: 24%;
+        margin-right: -5px; }
   #mainNosotros .headNosotros {
     padding: 50px;
     background-color: #1d2544;
@@ -782,6 +792,20 @@ input[type=submit]:hover {
     font-size: 12px; }
   #mainNosotros section {
     width: 95%; }
+  #mainNosotros #PiloCordo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    #mainNosotros #PiloCordo section {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      align-items: center;
+      justify-content: center; }
+      #mainNosotros #PiloCordo section img {
+        width: 40vw;
+        margin: 10px; }
   #mainNosotros .contenedorParrafos {
     display: flex;
     flex-direction: column; }

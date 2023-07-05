@@ -29,6 +29,19 @@
             width: 600px;
         }
     }
+    #PiloCordo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        section{
+            width: 100%;
+            img{
+                width: 24%;
+                margin-right: -5px;
+            }
+        }
+    }
 
     .headNosotros{
         padding: 50px;
@@ -42,6 +55,8 @@
             color: white;
         }
     }
+        
+    
 
     section{
         width: 80%;
@@ -61,6 +76,7 @@
                 border-bottom: 1px solid gray;
                 margin-bottom: 20px;
             }
+            
             .contenedorParrafos{
                 display: flex;
                 p{
@@ -179,6 +195,23 @@
         }
         section{
             width: 95%;
+        }
+        #PiloCordo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            section{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+                img{
+                    width: 40vw;
+                    margin: 10px;
+                }
+            }
         }
         .contenedorParrafos{
             display: flex;
