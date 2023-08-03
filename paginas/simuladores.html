@@ -25,9 +25,22 @@
                       <li class="nav-item">
                         <a class="nav-link" href="../index.html">Inicio</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Simuladores</a>
-                      </li>
+                      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Simuladores
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-lightgrey" aria-labelledby="navbarDarkDropdownMenuLink" id="MenuDesplegable">
+                              <li><a class="dropdown-item" href="#AirTractor">Air Tractor AT-802</a></li>
+                              <li><a class="dropdown-item" href="#Bolkow">Bolkow BO-105</a></li>
+                              <li><a class="dropdown-item" href="#Cessna">Cessna C-172</a></li>
+                              <li><a class="dropdown-item" href="#Pampa">Pampa AT-1</a></li>
+                              <li><a class="dropdown-item" href="#Automovilismo">Automovilismo</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
                       <!-- <li class="nav-item">
                         <a class="nav-link" href="videos.html">Videos</a>
                       </li> -->
@@ -64,7 +77,7 @@
           <div class="d-flex flex-column simHistory">
             
             <div class="d-flex align-items-center">
-              <img src="../jpgSimu/air.JPG" class="d-block imgSimu" alt="Simulador AT 802">
+              <img src="../jpgSimu/air.JPG" class="d-block imgSimu" alt="Simulador AT 802"  id="AirTractor">
               <div>
 
                 <h3>
@@ -106,7 +119,7 @@
           </div>
         </section>
   
-        <div class="headSimu">
+        <div class="headSimu" >
           <h2>Simulador de Eurocopter BO-105</h2>
         </div>
 
@@ -118,7 +131,7 @@
                 <h2>Bolkow BO-105</h2>
                 <p>Su capacidad le permite instruir alumnos en la operación de aeronaves bimotores con ambos o un solo motor operativo, vuelo instrumental básico y radioeléctrico, ejecutar las maniobras propias de este tipo de aeronaves como despegue y aterrizaje vertical en lugares confinados, barcos, portaaviones, visión nocturna, porta helicópteros, heli-puertos de edificios y plataformas offshore petrolíferas.</p>
               </div>
-              <img src="../jpgSimu/heli1.jpg" class="d-block imgSimu" alt="Eurocopter BO-105">
+              <img src="../jpgSimu/heli1.jpg" class="d-block imgSimu" alt="Eurocopter BO-105" id="Bolkow">
             </div>
 
             <div class="d-flex align-items-center">
@@ -145,7 +158,7 @@
           </div>
         </section>
 
-        <div class="headSimu">
+        <div class="headSimu" >
           <h2>Simulador Hornerito Cessna C-172</h2>
         </div>
         
@@ -154,7 +167,7 @@
           <div class="d-flex flex-column simHistory">
             
             <div class="d-flex align-items-center">
-              <img src="../jpgSimu/Horne1.jpg" class="d-block imgSimu" alt="Simulador Hornerito">
+              <img src="../jpgSimu/Horne1.jpg" class="d-block imgSimu" alt="Simulador Hornerito" id="Cessna">
               <div>
                 <h2>Sencillo y confiable</h2>
                 <p>Nuestro simulador de una de las más famosas aeronaves, el Cessna C-172. El avión de entrenamiento para pilotos más popular del mundo.</p>
@@ -171,7 +184,7 @@
           </div>
         </section>
 
-        <div class="headSimu">
+        <div class="headSimu" >
           <h2>Simulador Pampa AT-1</h2>
         </div>
 
@@ -185,13 +198,42 @@
                   Basado principalmente en el Pampa 2000, emula un monomotor turbofan. Sus características son ideales para un piloto que desee entrenarse en las habilidades primarias de vuelo y para el entrenamiento de pilotos ya formados en competencias profesionales de orden superior.
                 </p>
               </div>
-              <img src="../jpgSimu/pampa2.jpg" class="d-block imgSimu" alt="Pampa">
+              <img src="../jpgSimu/pampa2.jpg" class="d-block imgSimu" alt="Pampa" id="Pampa">
             </div>
 
             <div class="d-flex align-items-center">
               <img src="../jpgSimu/pampa1.jpg" class="d-block imgSimu" alt="Pampa">
               <div>
                 <p>La cabina está diseñada en escala 1:1, como todos nuestros simuladores, y está capacitado para programas típicos de entrenamiento VFR e IFR, para maniobras acrobáticas y para combate aéreo.</p> <p>Simulación total de fallas y condiciones meteorológicas.</p>
+              </div>
+            </div>
+            
+  
+          </div>
+        </section>
+
+        <div class="headSimu" >
+          <h2>Simulador de Automovilismo</h2>
+        </div>
+
+        <section class="d-flex flex-column align-items-center">
+          <div class="d-flex flex-column simHistory">
+            
+            <div class="d-flex align-items-center" id="Automovilismo">
+              <div>
+                <h2>Proyecto Simulador de Auto de Carrera</h2>
+                <p>
+                  Nos encontramos trabajando en un Convenio de Cooperación con una empresa dedicada al automovilismo en Brasil para la fabricación de un simulador de auto de carrera. Los requisitos que nos pidieron de este simulador fue que contara con una plataforma de movimiento de 6 ejes y con cabinas intercambiables y visión de 240 grados.
+                </p>
+              </div>
+              <img src="../jpgSimu/auto1.jpg" class="d-block imgSimu" alt="Automovilismo">
+            </div>
+
+            <div class="d-flex align-items-center">
+              <img src="../jpgSimu/auto.jpg" class="d-block imgSimu" alt="Automovilismo">
+              <div>
+                <p>En este momento, nosotros como empresa ya contamos con un mock-up de trabajo y estamos desarrollando las interfaces y parte del software de control de la adquisición de datos para la implementación en el simulador y poder entrenar tanto a pilotos como si fuera el auto que están corriendo y la preparación de ingenieros de pista.</p>
+                <p>Lo que todavía no se arregló es si este simulador estará operando en Argentina o Brasil.</p>
               </div>
             </div>
             
